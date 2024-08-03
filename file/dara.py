@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/employee_details', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_data():
     data = [
     {
